@@ -31,7 +31,7 @@ void draw() {
 
   sm = sumOf(value1, value2, value3);
   am = ariMean(value1, value2, value3);
-  //am = ariMean(value1, value2, value3);
+  am = ariMean(value1, value2, value3);
   gm = geoMean(value1, value2, value3);
   hm = harMean(value1, value2, value3);
   rms = rmsMean(value1, value2, value3);
@@ -39,7 +39,7 @@ void draw() {
   text("Summan: " + str(sm), 100, 100);
   text("Aritmetiskt medelvärde: " + str(am - am % 0.01), 100, 200);
   //text("Geometriskt medelvärde: " + str(gm - gm % 0.01), 100, 300);
-  //text("Aritmetiskt medelvärde: " + str(am - am % 0.01), 100, 200);
+  text("Aritmetiskt medelvärde: " + str(am - am % 0.01), 100, 200);
   text("Geometriskt medelvärde: " + str(gm - gm % 0.01), 100, 300);
   text("Harmoniskt medelvärde: " + str(hm - hm % 0.01), 100, 400);
   text("Kvadratiskt medelvärde (RMS): " + str(rms - rms % 0.01), 100, 500);
